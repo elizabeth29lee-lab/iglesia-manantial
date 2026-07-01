@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  html {
+    font-family: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom scrollbar matching earth/coffee theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f6f4ee; /* earth-50 */
+}
+::-webkit-scrollbar-thumb {
+  background: #dee0d1; /* earth-200 */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c3c7ae; /* earth-300 */
+}
+
+/* Custom glassmorphism components */
+.glass-panel {
+  background: rgba(246, 244, 238, 0.85); /* earth-50 with transparency */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(240, 241, 234, 0.5); /* earth-100 */
+}
+
+.glass-panel-dark {
+  background: rgba(38, 38, 38, 0.75); /* coffee-900 with transparency */
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.text-gradient-peace {
+  background: linear-gradient(135deg, #565d3f 0%, #bca374 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #bca374 0%, #ded5be 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

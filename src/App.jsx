@@ -275,16 +275,16 @@ export default function App() {
                   <path d="M 0 120 L 50 120 L 40 200 L 0 200 Z" fill="#2c1b10" />
                   <path d="M 150 120 L 200 120 L 200 200 L 160 200 Z" fill="#2c1b10" />
                   
-                  {/* Cross Bridge spanning cliffs */}
-                  {/* Horiz bar */}
+                  {/* Main horizontal beam (long post of the cross lying down) */}
                   <rect x="42" y="112" width="116" height="8" rx="2" fill="url(#crossGlow)" className="animate-pulse-subtle" />
-                  {/* Vert post (stretched to form a Latin Cross) */}
-                  <rect x="96" y="70" width="8" height="110" rx="2" fill="url(#crossGlow)" />
+                  
+                  {/* Vertical crossbar (lying down to the right, positioned close to the right cliff) */}
+                  <rect x="126" y="86" width="8" height="60" rx="2" fill="url(#crossGlow)" />
                   
                   {/* Light beams */}
-                  <line x1="100" y1="70" x2="100" y2="40" stroke="#fff" strokeWidth="1" strokeDasharray="2,2" opacity="0.6" />
-                  <line x1="75" y1="116" x2="60" y2="90" stroke="#fff" strokeWidth="1" strokeDasharray="2,2" opacity="0.4" />
-                  <line x1="125" y1="116" x2="140" y2="90" stroke="#fff" strokeWidth="1" strokeDasharray="2,2" opacity="0.4" />
+                  <line x1="130" y1="86" x2="130" y2="50" stroke="#fff" strokeWidth="1" strokeDasharray="2,2" opacity="0.6" />
+                  <line x1="75" y1="112" x2="60" y2="85" stroke="#fff" strokeWidth="1" strokeDasharray="2,2" opacity="0.4" />
+                  <line x1="130" y1="116" x2="145" y2="90" stroke="#fff" strokeWidth="1" strokeDasharray="2,2" opacity="0.4" />
                   
                   {/* Human walking on the Cross */}
                   <circle cx="75" cy="104" r="3" fill="#fff" />

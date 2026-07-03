@@ -13,12 +13,15 @@ import {
   Bookmark, 
   Sparkles,
   ExternalLink,
-  ChevronDown
+  ChevronDown,
+  Menu,
+  X
 } from 'lucide-react';
 import SelfEvaluation from './components/SelfEvaluation';
 import InteractiveGap from './components/InteractiveGap';
 
 export default function App() {
+  const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
   return (
     <div 
       className="min-h-screen text-coffee-900 font-sans flex flex-col selection:bg-earth-100 selection:text-earth-950 bg-repeat"
@@ -26,33 +29,85 @@ export default function App() {
     >
       
       {/* Navigation Header */}
-      <header className="sticky top-0 z-50 glass-panel border-b border-earth-100/60 px-4 sm:px-8 py-4 sm:py-5 flex items-center justify-between shadow-sm shadow-coffee-950/5">
-        <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-earth-600 to-earth-400 flex items-center justify-center shadow-md shadow-earth-200/35 flex-shrink-0">
-            <Compass className="w-6 h-6 text-white" />
+      <header className="sticky top-0 z-50 glass-panel border-b border-earth-100/60 px-4 sm:px-8 py-4 sm:py-5 shadow-sm shadow-coffee-950/5">
+        <div className="max-w-6xl mx-auto flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-earth-600 to-earth-400 flex items-center justify-center shadow-md shadow-earth-200/35 flex-shrink-0">
+              <Compass className="w-6 h-6 text-white" />
+            </div>
+            <div className="flex flex-col leading-tight">
+              <span className="font-sans font-extrabold text-sm sm:text-base md:text-lg tracking-tight text-coffee-950 whitespace-nowrap">
+                Iglesia <span className="text-earth-700">Manantial de Vida</span>
+              </span>
+              <span className="text-[9px] sm:text-[10px] text-coffee-500 font-bold tracking-widest uppercase mt-0.5">
+                Cuenca - España
+              </span>
+            </div>
           </div>
-          <div className="flex flex-col leading-tight">
-            <span className="font-sans font-extrabold text-sm sm:text-base md:text-lg tracking-tight text-coffee-950 whitespace-nowrap">
-              Iglesia <span className="text-earth-700">Manantial de Vida</span>
-            </span>
-            <span className="text-[9px] sm:text-[10px] text-coffee-500 font-bold tracking-widest uppercase mt-0.5">
-              Cuenca - España
-            </span>
+          <nav className="hidden lg:flex items-center gap-5 text-sm font-bold text-coffee-500 whitespace-nowrap">
+            <a href="#problema" className="hover:text-earth-700 transition-colors">El Problema</a>
+            <a href="#solucion" className="hover:text-earth-700 transition-colors">La Solución</a>
+            <a href="#requisito" className="hover:text-earth-700 transition-colors">El Requisito</a>
+            <a href="#garantia" className="hover:text-earth-700 transition-colors">La Garantía</a>
+            <a href="#pasos" className="hover:text-earth-700 transition-colors">Próximos Pasos</a>
+          </nav>
+          <div className="flex items-center gap-3">
+            <a 
+              href="#requisito" 
+              className="bg-earth-600 hover:bg-earth-700 text-white font-extrabold text-xs sm:text-sm px-5 py-2.5 rounded-xl transition-all shadow-sm shadow-earth-200/30 hover:shadow-md hover:shadow-earth-200/50 active:scale-95 whitespace-nowrap"
+            >
+              Iniciar Camino
+            </a>
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="lg:hidden p-2 rounded-xl bg-earth-200/50 hover:bg-earth-200 text-coffee-700 transition-colors"
+              aria-label="Menú de navegación"
+            >
+              {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            </button>
           </div>
         </div>
-        <nav className="hidden lg:flex items-center gap-5 text-sm font-bold text-coffee-500 whitespace-nowrap">
-          <a href="#problema" className="hover:text-earth-700 transition-colors">El Problema</a>
-          <a href="#solucion" className="hover:text-earth-700 transition-colors">La Solución</a>
-          <a href="#requisito" className="hover:text-earth-700 transition-colors">El Requisito</a>
-          <a href="#garantia" className="hover:text-earth-700 transition-colors">La Garantía</a>
-          <a href="#pasos" className="hover:text-earth-700 transition-colors">Próximos Pasos</a>
-        </nav>
-        <a 
-          href="#requisito" 
-          className="bg-earth-600 hover:bg-earth-700 text-white font-extrabold text-xs sm:text-sm px-5 py-2.5 rounded-xl transition-all shadow-sm shadow-earth-200/30 hover:shadow-md hover:shadow-earth-200/50 active:scale-95 whitespace-nowrap"
-        >
-          Iniciar Camino
-        </a>
+
+        {/* Mobile Dropdown Menu */}
+        {mobileMenuOpen && (
+          <div className="lg:hidden absolute top-[100%] left-0 right-0 glass-panel border-b border-earth-100/60 py-4 px-6 flex flex-col gap-3 animate-fade-in shadow-lg">
+            <a 
+              href="#problema" 
+              onClick={() => setMobileMenuOpen(false)}
+              className="font-bold text-coffee-700 hover:text-earth-750 py-2 border-b border-earth-100/40 text-sm"
+            >
+              El Problema
+            </a>
+            <a 
+              href="#solucion" 
+              onClick={() => setMobileMenuOpen(false)}
+              className="font-bold text-coffee-700 hover:text-earth-750 py-2 border-b border-earth-100/40 text-sm"
+            >
+              La Solución
+            </a>
+            <a 
+              href="#requisito" 
+              onClick={() => setMobileMenuOpen(false)}
+              className="font-bold text-coffee-700 hover:text-earth-750 py-2 border-b border-earth-100/40 text-sm"
+            >
+              El Requisito
+            </a>
+            <a 
+              href="#garantia" 
+              onClick={() => setMobileMenuOpen(false)}
+              className="font-bold text-coffee-700 hover:text-earth-750 py-2 border-b border-earth-100/40 text-sm"
+            >
+              La Garantía
+            </a>
+            <a 
+              href="#pasos" 
+              onClick={() => setMobileMenuOpen(false)}
+              className="font-bold text-coffee-700 hover:text-earth-750 py-2 text-sm"
+            >
+              Próximos Pasos
+            </a>
+          </div>
+        )}
       </header>
 
       {/* Hero Section */}

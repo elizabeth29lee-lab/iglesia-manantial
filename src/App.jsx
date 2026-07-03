@@ -278,11 +278,11 @@ export default function App() {
                   {/* Cross Bridge spanning cliffs */}
                   {/* Horiz bar */}
                   <rect x="42" y="112" width="116" height="8" rx="2" fill="url(#crossGlow)" className="animate-pulse-subtle" />
-                  {/* Vert bar */}
-                  <rect x="96" y="90" width="8" height="50" rx="2" fill="url(#crossGlow)" />
+                  {/* Vert post (stretched to form a Latin Cross) */}
+                  <rect x="96" y="70" width="8" height="110" rx="2" fill="url(#crossGlow)" />
                   
                   {/* Light beams */}
-                  <line x1="100" y1="90" x2="100" y2="60" stroke="#fff" strokeWidth="1" strokeDasharray="2,2" opacity="0.6" />
+                  <line x1="100" y1="70" x2="100" y2="40" stroke="#fff" strokeWidth="1" strokeDasharray="2,2" opacity="0.6" />
                   <line x1="75" y1="116" x2="60" y2="90" stroke="#fff" strokeWidth="1" strokeDasharray="2,2" opacity="0.4" />
                   <line x1="125" y1="116" x2="140" y2="90" stroke="#fff" strokeWidth="1" strokeDasharray="2,2" opacity="0.4" />
                   

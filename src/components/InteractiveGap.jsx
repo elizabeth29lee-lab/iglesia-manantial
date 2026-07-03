@@ -134,7 +134,7 @@ export default function InteractiveGap() {
 
       {/* Effort Selectors */}
       <div className="space-y-2">
-        <span className="text-xs font-bold text-coffee-400 uppercase tracking-widest block mb-1">
+        <span className="text-xs font-bold text-coffee-800 uppercase tracking-widest block mb-1">
           SELECCIONA UN INTENTO HUMANO:
         </span>
         <div className="grid grid-cols-3 gap-2">
@@ -172,7 +172,7 @@ export default function InteractiveGap() {
         {selectedEffort !== 'none' && (
           <button
             onClick={() => setSelectedEffort('none')}
-            className="w-full text-center py-1 text-[11px] text-coffee-400 font-semibold hover:text-coffee-600 transition-colors"
+            className="w-full text-center py-1 text-[11px] text-coffee-800 font-semibold hover:text-coffee-600 transition-colors"
           >
             Restablecer Abismo
           </button>
@@ -186,7 +186,7 @@ export default function InteractiveGap() {
             <ShieldAlert className="w-4 h-4 text-rose-500" />
             <span>{current.title}</span>
           </h4>
-          <p className="text-coffee-600 text-xs sm:text-sm leading-relaxed font-light">
+          <p className="text-coffee-600 text-xs sm:text-sm leading-relaxed font-medium">
             {current.description}
           </p>
         </div>
@@ -195,8 +195,8 @@ export default function InteractiveGap() {
           <span className="text-rose-600 bg-rose-50 px-2 py-0.5 rounded-md font-semibold text-[10px] uppercase tracking-wider">
             Motivo: {current.reason}
           </span>
-          <span className="text-coffee-400 italic flex items-center gap-1">
-            <BookOpen className="w-3 h-3 text-coffee-400" />
+          <span className="text-coffee-800 italic flex items-center gap-1">
+            <BookOpen className="w-3 h-3 text-coffee-800" />
             {current.scripture}
           </span>
         </div>

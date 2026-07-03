@@ -71,7 +71,7 @@ export default function App() {
               El Plan de Dios <br />
               <span className="text-gradient-peace">para tu Vida</span>
             </h1>
-            <p className="text-coffee-400 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed font-light">
+            <p className="text-coffee-900 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed font-semibold">
               Descubre el camino trazado por el Creador para restaurar tu comunión con Él y asegurar tu destino eterno hoy mismo.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
@@ -125,7 +125,7 @@ export default function App() {
           <h2 className="font-sans font-extrabold text-3xl sm:text-4xl text-coffee-950">
             El Problema: La Separación
           </h2>
-          <p className="text-coffee-400 text-sm sm:text-base">
+          <p className="text-coffee-800 text-sm sm:text-base">
             Para entender el valor de la salvación, primero debemos comprender por qué la necesitamos con urgencia.
           </p>
         </div>
@@ -139,7 +139,7 @@ export default function App() {
               </div>
               <div>
                 <h3 className="font-sans font-bold text-coffee-950 text-base sm:text-lg">El Pecado</h3>
-                <p className="text-coffee-400 text-sm mt-1">
+                <p className="text-coffee-800 text-sm mt-1">
                   Son todas nuestras acciones, pensamientos y actitudes contrarias al carácter perfecto de Dios. Nos separa completamente de Él.
                 </p>
               </div>
@@ -151,7 +151,7 @@ export default function App() {
               </div>
               <div>
                 <h3 className="font-sans font-bold text-coffee-950 text-base sm:text-lg">La Consecuencia</h3>
-                <p className="text-coffee-400 text-sm mt-1">
+                <p className="text-coffee-800 text-sm mt-1">
                   El pecado genera una deuda impagable. La consecuencia espiritual es la muerte: separación eterna del amor de Dios.
                 </p>
               </div>
@@ -163,7 +163,7 @@ export default function App() {
               </div>
               <div>
                 <h3 className="font-sans font-bold text-coffee-950 text-base sm:text-lg">Nuestra Incapacidad</h3>
-                <p className="text-coffee-400 text-sm mt-1">
+                <p className="text-coffee-800 text-sm mt-1">
                   Ningún ritual, buena obra, moralidad o esfuerzo humano es suficiente para cruzar la brecha hacia un Dios santo.
                 </p>
               </div>
@@ -299,7 +299,7 @@ export default function App() {
           <h2 className="font-sans font-extrabold text-3xl sm:text-4xl text-coffee-950">
             El Único Requisito: Cree y Confía
           </h2>
-          <p className="text-coffee-400 text-sm sm:text-base">
+          <p className="text-coffee-800 text-sm sm:text-base">
             La salvación es un regalo inmerecido de Dios (Gracia). No se gana portándose bien; se recibe por medio de la fe sincera.
           </p>
         </div>
@@ -316,7 +316,7 @@ export default function App() {
                   <Gift className="w-5 h-5" />
                 </div>
                 <h3 className="font-sans font-bold text-xl text-coffee-950">Un Regalo Gratuito</h3>
-                <p className="text-coffee-400 text-sm sm:text-base leading-relaxed font-light">
+                <p className="text-coffee-800 text-sm sm:text-base leading-relaxed font-medium">
                   "Porque por gracia sois salvos por medio de la fe; y esto no de vosotros, pues es don de Dios; no por obras, para que nadie se gloríe." 
                   <span className="block mt-2 font-bold text-xs text-earth-700 uppercase tracking-wider">— Efesios 2:8-9</span>
                 </p>
@@ -389,7 +389,7 @@ export default function App() {
               </span>
             </div>
 
-            <p className="text-coffee-200 text-sm sm:text-base leading-relaxed font-light">
+            <p className="text-coffee-200 text-sm sm:text-base leading-relaxed font-medium">
               Tu salvación no depende de la fluctuación de tus emociones ni de tu desempeño perfecto cotidiano. Depende de la fidelidad eterna de la promesa divina. Una vez adoptado como hijo, Dios te sostiene con firmeza.
             </p>
           </div>
@@ -446,7 +446,7 @@ export default function App() {
           <h2 className="font-sans font-extrabold text-3xl sm:text-4xl text-coffee-950">
             Próximos Pasos en tu Fe
           </h2>
-          <p className="text-coffee-400 text-sm sm:text-base">
+          <p className="text-coffee-800 text-sm sm:text-base">
             La salvación es el inicio de una hermosa relación. Aquí te mostramos cómo madurar en tu caminar espiritual.
           </p>
         </div>
@@ -460,7 +460,7 @@ export default function App() {
                 <Droplet className="w-5 h-5" />
               </div>
               <h3 className="font-sans font-bold text-coffee-950 text-base sm:text-lg">1. Bautismo</h3>
-              <p className="text-coffee-400 text-xs sm:text-sm leading-relaxed">
+              <p className="text-coffee-800 text-xs sm:text-sm leading-relaxed">
                 Paso público de obediencia que simboliza tu muerte al pecado y tu resurrección a una nueva vida con Cristo.
               </p>
             </div>
@@ -477,7 +477,7 @@ export default function App() {
                 <BookOpen className="w-5 h-5" />
               </div>
               <h3 className="font-sans font-bold text-coffee-950 text-base sm:text-lg">2. Estudio Bíblico</h3>
-              <p className="text-coffee-400 text-xs sm:text-sm leading-relaxed">
+              <p className="text-coffee-800 text-xs sm:text-sm leading-relaxed">
                 Estudiar la Palabra te ayuda a conocer la voluntad de Dios, fortalecer tu mente y resistir las mentiras del enemigo.
               </p>
             </div>
@@ -494,7 +494,7 @@ export default function App() {
                 <Users className="w-5 h-5" />
               </div>
               <h3 className="font-sans font-bold text-coffee-950 text-base sm:text-lg">3. Vida en Comunidad</h3>
-              <p className="text-coffee-400 text-xs sm:text-sm leading-relaxed">
+              <p className="text-coffee-800 text-xs sm:text-sm leading-relaxed">
                 Congregarte con otros creyentes te brinda apoyo, consejería y la oportunidad de ejercitar tus dones de servicio.
               </p>
             </div>
@@ -511,7 +511,7 @@ export default function App() {
                 <Share2 className="w-5 h-5" />
               </div>
               <h3 className="font-sans font-bold text-coffee-950 text-base sm:text-lg">4. Compartir la Fe</h3>
-              <p className="text-coffee-400 text-xs sm:text-sm leading-relaxed">
+              <p className="text-coffee-800 text-xs sm:text-sm leading-relaxed">
                 Llevar las buenas nuevas de perdón y seguridad eterna a otros es la gran comisión que Jesús nos encomendó.
               </p>
             </div>
@@ -537,12 +537,12 @@ export default function App() {
                 <span className="font-sans font-extrabold text-white text-base tracking-tight">
                   Iglesia Manantial de Vida
                 </span>
-                <span className="text-[10px] text-coffee-400 font-semibold tracking-wider uppercase">
+                <span className="text-[10px] text-coffee-800 font-semibold tracking-wider uppercase">
                   Cuenca - España
                 </span>
               </div>
             </div>
-            <p className="text-xs sm:text-sm text-coffee-400 max-w-sm leading-relaxed">
+            <p className="text-xs sm:text-sm text-coffee-800 max-w-sm leading-relaxed">
               Dedicados a predicar el mensaje inmutable de Jesucristo, guiando a las personas hacia la paz y la seguridad que solo Dios ofrece.
             </p>
           </div>
@@ -559,7 +559,7 @@ export default function App() {
 
           <div className="md:col-span-4 space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-slate-200">Contacto y Recursos</h4>
-            <p className="text-xs sm:text-sm text-coffee-400">
+            <p className="text-xs sm:text-sm text-coffee-800">
               Inspirado por Mission Southside y comunidades cristianas locales.
             </p>
             <div className="space-y-1 text-xs">

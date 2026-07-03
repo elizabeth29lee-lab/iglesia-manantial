@@ -176,7 +176,7 @@ export default function SelfEvaluation() {
                       </>
                     )}
                   </button>
-                  <div className="flex items-center justify-center gap-2 text-xs text-coffee-400 px-3">
+                  <div className="flex items-center justify-center gap-2 text-xs text-coffee-800 px-3">
                     <CheckCircle2 className="w-4 h-4 text-earth-400 flex-shrink-0" />
                     <span>Tu fe en Jesús te conecta a la garantía eterna.</span>
                   </div>

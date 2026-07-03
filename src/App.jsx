@@ -613,14 +613,24 @@ export default function App() {
           </div>
 
           <div className="md:col-span-4 space-y-3">
-            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-200">Contacto y Recursos</h4>
-            <p className="text-xs sm:text-sm text-coffee-800">
-              Inspirado por Mission Southside y comunidades cristianas locales.
-            </p>
-            <div className="space-y-1 text-xs">
-              <p>Email: <a href="mailto:info@iglesiamanantial.org" className="text-coffee-200 hover:text-white">info@iglesiamanantial.org</a></p>
-              <p>Teléfono: <span className="text-coffee-200">+1 (800) 555-0199</span></p>
-              <p>Dirección: <span className="text-coffee-200">123 Camino de la Gracia, Manantial, EE.UU.</span></p>
+            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-200">Contacto y Redes</h4>
+            <div className="space-y-2 text-xs sm:text-sm">
+              <p className="flex items-center gap-2">
+                <span className="font-bold text-coffee-400">Teléfono:</span>
+                <a href="tel:+34641145758" className="text-coffee-200 hover:text-white transition-colors">641 14 57 58</a>
+              </p>
+              <p className="flex items-start gap-2">
+                <span className="font-bold text-coffee-400 flex-shrink-0">YouTube:</span>
+                <span className="text-coffee-200">manantial de vida cuenc españa</span>
+              </p>
+              <p className="flex items-start gap-2">
+                <span className="font-bold text-coffee-400 flex-shrink-0">Facebook:</span>
+                <span className="text-coffee-200">manantial vida cuenca spain</span>
+              </p>
+              <p className="flex items-start gap-2">
+                <span className="font-bold text-coffee-400 flex-shrink-0">Instagram:</span>
+                <span className="text-coffee-200">manantial de vida cuenca</span>
+              </p>
             </div>
           </div>
 

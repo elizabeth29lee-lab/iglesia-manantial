@@ -15,7 +15,8 @@ import {
   ExternalLink,
   ChevronDown,
   Menu,
-  X
+  X,
+  Phone
 } from 'lucide-react';
 import SelfEvaluation from './components/SelfEvaluation';
 import InteractiveGap from './components/InteractiveGap';
@@ -614,23 +615,39 @@ export default function App() {
 
           <div className="md:col-span-4 space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-slate-200">Contacto y Redes</h4>
-            <div className="space-y-2 text-xs sm:text-sm">
-              <p className="flex items-center gap-2">
-                <span className="font-bold text-coffee-400">Teléfono:</span>
-                <a href="tel:+34641145758" className="text-coffee-200 hover:text-white transition-colors">641 14 57 58</a>
-              </p>
-              <p className="flex items-start gap-2">
-                <span className="font-bold text-coffee-400 flex-shrink-0">YouTube:</span>
-                <span className="text-coffee-200">manantial de vida cuenc españa</span>
-              </p>
-              <p className="flex items-start gap-2">
-                <span className="font-bold text-coffee-400 flex-shrink-0">Facebook:</span>
-                <span className="text-coffee-200">manantial vida cuenca spain</span>
-              </p>
-              <p className="flex items-start gap-2">
-                <span className="font-bold text-coffee-400 flex-shrink-0">Instagram:</span>
-                <span className="text-coffee-200">manantial de vida cuenca</span>
-              </p>
+            <div className="space-y-3 text-xs sm:text-sm">
+              <a href="tel:+34641145758" className="flex items-center gap-3 text-coffee-200 hover:text-white transition-colors group">
+                <div className="w-8 h-8 rounded-lg bg-coffee-900 border border-coffee-800 flex items-center justify-center text-earth-400 group-hover:text-white group-hover:border-coffee-700 transition-colors">
+                  <Phone className="w-4 h-4" />
+                </div>
+                <span className="font-medium">641 14 57 58</span>
+              </a>
+              <div className="flex items-center gap-3 text-coffee-200">
+                <div className="w-8 h-8 rounded-lg bg-coffee-900 border border-coffee-800 flex items-center justify-center text-earth-400">
+                  <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
+                    <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.108C19.526 3.535 12 3.535 12 3.535s-7.525 0-9.387.52a3.003 3.003 0 0 0-2.11 2.108C0 8.026 0 12 0 12s0 3.974.503 5.837a3.003 3.003 0 0 0 2.11 2.108c1.862.52 9.387.52 9.387.52s7.525 0 9.387-.52a3.003 3.003 0 0 0 2.11-2.108C24 15.974 24 12 24 12s0-3.974-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                </div>
+                <span className="font-medium">Manantial De Vida Cuenca España</span>
+              </div>
+              <div className="flex items-center gap-3 text-coffee-200">
+                <div className="w-8 h-8 rounded-lg bg-coffee-900 border border-coffee-800 flex items-center justify-center text-earth-400">
+                  <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                  </svg>
+                </div>
+                <span className="font-medium">Manantial Vida Cuenca Spain</span>
+              </div>
+              <div className="flex items-center gap-3 text-coffee-200">
+                <div className="w-8 h-8 rounded-lg bg-coffee-900 border border-coffee-800 flex items-center justify-center text-earth-400">
+                  <svg viewBox="0 0 24 24" className="w-4 h-4 fill-none stroke-current" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                  </svg>
+                </div>
+                <span className="font-medium">Manantial De Vida Cuenca</span>
+              </div>
             </div>
           </div>
 

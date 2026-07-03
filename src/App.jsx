@@ -622,14 +622,19 @@ export default function App() {
                 </div>
                 <span className="font-medium">641 14 57 58</span>
               </a>
-              <div className="flex items-center gap-3 text-coffee-200">
-                <div className="w-8 h-8 rounded-lg bg-coffee-900 border border-coffee-800 flex items-center justify-center text-earth-400">
+              <a 
+                href="https://www.youtube.com/@Manantialdevidacuenca" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center gap-3 text-coffee-200 hover:text-white transition-colors group"
+              >
+                <div className="w-8 h-8 rounded-lg bg-coffee-900 border border-coffee-800 flex items-center justify-center text-earth-400 group-hover:text-white group-hover:border-coffee-700 transition-colors">
                   <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
                     <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.108C19.526 3.535 12 3.535 12 3.535s-7.525 0-9.387.52a3.003 3.003 0 0 0-2.11 2.108C0 8.026 0 12 0 12s0 3.974.503 5.837a3.003 3.003 0 0 0 2.11 2.108c1.862.52 9.387.52 9.387.52s7.525 0 9.387-.52a3.003 3.003 0 0 0 2.11-2.108C24 15.974 24 12 24 12s0-3.974-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
                   </svg>
                 </div>
                 <span className="font-medium">Manantial De Vida Cuenca España</span>
-              </div>
+              </a>
               <div className="flex items-center gap-3 text-coffee-200">
                 <div className="w-8 h-8 rounded-lg bg-coffee-900 border border-coffee-800 flex items-center justify-center text-earth-400">
                   <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">

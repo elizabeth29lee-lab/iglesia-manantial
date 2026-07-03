@@ -643,8 +643,13 @@ export default function App() {
                 </div>
                 <span className="font-medium">Manantial Vida Cuenca Spain</span>
               </div>
-              <div className="flex items-center gap-3 text-coffee-200">
-                <div className="w-8 h-8 rounded-lg bg-coffee-900 border border-coffee-800 flex items-center justify-center text-earth-400">
+              <a 
+                href="https://www.instagram.com/manantialdevidacuenca/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center gap-3 text-coffee-200 hover:text-white transition-colors group"
+              >
+                <div className="w-8 h-8 rounded-lg bg-coffee-900 border border-coffee-800 flex items-center justify-center text-earth-400 group-hover:text-white group-hover:border-coffee-700 transition-colors">
                   <svg viewBox="0 0 24 24" className="w-4 h-4 fill-none stroke-current" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
                     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
@@ -652,7 +657,7 @@ export default function App() {
                   </svg>
                 </div>
                 <span className="font-medium">Manantial De Vida Cuenca</span>
-              </div>
+              </a>
             </div>
           </div>
 

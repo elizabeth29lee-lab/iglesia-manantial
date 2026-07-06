@@ -32,8 +32,8 @@ export default function App() {
       <header className="sticky top-0 z-50 glass-panel border-b border-earth-100/60 px-4 sm:px-8 py-4 sm:py-5 shadow-sm shadow-coffee-950/5">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-14 h-14 flex items-center justify-center flex-shrink-0 overflow-hidden">
-              <img src="/logo.png" alt="Logo Iglesia Manantial" className="w-full h-full object-contain mix-blend-multiply scale-[1.6]" />
+            <div className="w-11 h-11 flex items-center justify-center flex-shrink-0 overflow-hidden">
+              <img src="/logo.png" alt="Logo Iglesia Manantial" className="w-full h-full object-contain mix-blend-multiply" />
             </div>
             <div className="flex flex-col leading-tight">
               <span className="font-sans font-extrabold text-sm sm:text-base md:text-lg tracking-tight text-coffee-950 whitespace-nowrap">
@@ -161,8 +161,8 @@ export default function App() {
                     <span className="block font-bold text-coffee-900">El Camino a Casa</span>
                     <span className="block text-[10px] text-coffee-500 font-semibold tracking-wide">Juan 14:6 — Jesús es el Camino</span>
                   </div>
-                  <div className="w-9 h-9 flex items-center justify-center flex-shrink-0 overflow-hidden">
-                    <img src="/logo.png" alt="Logo" className="w-full h-full object-contain mix-blend-multiply scale-[1.6]" />
+                  <div className="w-7 h-7 flex items-center justify-center flex-shrink-0 overflow-hidden">
+                    <img src="/logo.png" alt="Logo" className="w-full h-full object-contain mix-blend-multiply" />
                   </div>
                 </div>
               </div>
@@ -585,8 +585,8 @@ export default function App() {
           
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-11 h-11 flex items-center justify-center overflow-hidden flex-shrink-0">
-                <img src="/logo.png" alt="Logo" className="w-full h-full object-contain invert mix-blend-screen scale-[1.6]" />
+              <div className="w-9 h-9 flex items-center justify-center overflow-hidden flex-shrink-0">
+                <img src="/logo.png" alt="Logo" className="w-full h-full object-contain invert mix-blend-screen" />
               </div>
               <div className="flex flex-col leading-tight">
                 <span className="font-sans font-extrabold text-white text-base tracking-tight">

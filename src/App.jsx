@@ -32,7 +32,7 @@ export default function App() {
       <header className="sticky top-0 z-50 glass-panel border-b border-earth-100/60 px-4 sm:px-8 py-4 sm:py-5 shadow-sm shadow-coffee-950/5">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-11 h-11 flex items-center justify-center flex-shrink-0 overflow-hidden">
+            <div className="w-12 h-12 flex items-center justify-center flex-shrink-0 p-1">
               <img src="/logo.png" alt="Logo Iglesia Manantial" className="w-full h-full object-contain mix-blend-multiply" />
             </div>
             <div className="flex flex-col leading-tight">
@@ -161,7 +161,7 @@ export default function App() {
                     <span className="block font-bold text-coffee-900">El Camino a Casa</span>
                     <span className="block text-[10px] text-coffee-500 font-semibold tracking-wide">Juan 14:6 — Jesús es el Camino</span>
                   </div>
-                  <div className="w-7 h-7 flex items-center justify-center flex-shrink-0 overflow-hidden">
+                  <div className="w-8 h-8 flex items-center justify-center flex-shrink-0 p-0.5">
                     <img src="/logo.png" alt="Logo" className="w-full h-full object-contain mix-blend-multiply" />
                   </div>
                 </div>
@@ -585,7 +585,7 @@ export default function App() {
           
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 flex items-center justify-center overflow-hidden flex-shrink-0">
+              <div className="w-10 h-10 flex items-center justify-center flex-shrink-0 p-0.5">
                 <img src="/logo.png" alt="Logo" className="w-full h-full object-contain invert mix-blend-screen" />
               </div>
               <div className="flex flex-col leading-tight">

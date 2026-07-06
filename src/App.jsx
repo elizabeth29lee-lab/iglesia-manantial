@@ -311,7 +311,7 @@ export default function App() {
                     1
                   </div>
                   <div>
-                    <h3 className="font-sans font-bold text-lg sm:text-xl text-white">La Encarnación</h3>
+                    <h3 className="font-sans font-bold text-lg sm:text-xl text-white">Dios se hizo hombre</h3>
                     <p className="text-slate-400 text-sm sm:text-base mt-2 leading-relaxed">
                       El Creador se hizo hombre en Jesucristo. Vivió una vida perfecta y sin mancha para experimentar nuestras luchas y calificar como el único mediador justo.
                     </p>

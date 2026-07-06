@@ -592,12 +592,12 @@ export default function App() {
                 <span className="font-sans font-extrabold text-white text-base tracking-tight">
                   Iglesia Manantial de Vida
                 </span>
-                <span className="text-[10px] text-coffee-800 font-semibold tracking-wider uppercase">
+                <span className="text-[10px] text-coffee-400 font-bold tracking-wider uppercase">
                   Cuenca - España
                 </span>
               </div>
             </div>
-            <p className="text-xs sm:text-sm text-coffee-800 max-w-sm leading-relaxed">
+            <p className="text-xs sm:text-sm text-coffee-300 max-w-sm leading-relaxed">
               Dedicados a predicar el mensaje inmutable de Jesucristo, guiando a las personas hacia la paz y la seguridad que solo Dios ofrece.
             </p>
           </div>

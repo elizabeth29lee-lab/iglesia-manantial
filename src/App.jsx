@@ -625,9 +625,9 @@ export default function App() {
                 href="https://www.youtube.com/@Manantialdevidacuenca" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="flex items-center gap-3 text-coffee-200 hover:text-white transition-colors group"
+                className="flex items-center gap-3 text-coffee-200 hover:text-red-400 transition-colors group"
               >
-                <div className="w-8 h-8 rounded-lg bg-coffee-900 border border-coffee-800 flex items-center justify-center text-earth-400 group-hover:text-white group-hover:border-coffee-700 transition-colors">
+                <div className="w-8 h-8 rounded-lg bg-red-950/20 border border-red-900/30 flex items-center justify-center text-red-500 group-hover:text-white group-hover:bg-[#FF0000] group-hover:border-[#FF0000] transition-all duration-300 shadow-sm shadow-red-950/10">
                   <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
                     <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.108C19.526 3.535 12 3.535 12 3.535s-7.525 0-9.387.52a3.003 3.003 0 0 0-2.11 2.108C0 8.026 0 12 0 12s0 3.974.503 5.837a3.003 3.003 0 0 0 2.11 2.108c1.862.52 9.387.52 9.387.52s7.525 0 9.387-.52a3.003 3.003 0 0 0 2.11-2.108C24 15.974 24 12 24 12s0-3.974-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
                   </svg>
@@ -638,9 +638,9 @@ export default function App() {
                 href="https://www.facebook.com/ManantialDeVidaC/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="flex items-center gap-3 text-coffee-200 hover:text-white transition-colors group"
+                className="flex items-center gap-3 text-coffee-200 hover:text-blue-400 transition-colors group"
               >
-                <div className="w-8 h-8 rounded-lg bg-coffee-900 border border-coffee-800 flex items-center justify-center text-earth-400 group-hover:text-white group-hover:border-coffee-700 transition-colors">
+                <div className="w-8 h-8 rounded-lg bg-blue-950/20 border border-blue-900/30 flex items-center justify-center text-blue-500 group-hover:text-white group-hover:bg-[#1877F2] group-hover:border-[#1877F2] transition-all duration-300 shadow-sm shadow-blue-950/10">
                   <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
                     <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
                   </svg>
@@ -651,9 +651,9 @@ export default function App() {
                 href="https://www.instagram.com/manantialdevidacuenca/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="flex items-center gap-3 text-coffee-200 hover:text-white transition-colors group"
+                className="flex items-center gap-3 text-coffee-200 hover:text-pink-400 transition-colors group"
               >
-                <div className="w-8 h-8 rounded-lg bg-coffee-900 border border-coffee-800 flex items-center justify-center text-earth-400 group-hover:text-white group-hover:border-coffee-700 transition-colors">
+                <div className="w-8 h-8 rounded-lg bg-pink-950/20 border border-pink-900/30 flex items-center justify-center text-pink-500 group-hover:text-white group-hover:bg-gradient-to-tr group-hover:from-[#FCAF45] group-hover:via-[#E1306C] group-hover:to-[#C13584] group-hover:border-transparent transition-all duration-300 shadow-sm shadow-pink-950/10">
                   <svg viewBox="0 0 24 24" className="w-4 h-4 fill-none stroke-current" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
                     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />

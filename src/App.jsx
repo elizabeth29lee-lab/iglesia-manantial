@@ -615,8 +615,13 @@ export default function App() {
           <div className="md:col-span-4 space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-slate-200">Contacto y Redes</h4>
             <div className="space-y-3 text-xs sm:text-sm">
-              <a href="tel:+34641145758" className="flex items-center gap-3 text-coffee-200 hover:text-white transition-colors group">
-                <div className="w-8 h-8 rounded-lg bg-coffee-900 border border-coffee-800 flex items-center justify-center text-earth-400 group-hover:text-white group-hover:border-coffee-700 transition-colors">
+              <a 
+                href="https://wa.me/34641145758" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center gap-3 text-coffee-200 hover:text-green-400 transition-colors group"
+              >
+                <div className="w-8 h-8 rounded-lg bg-coffee-900 border border-coffee-800 flex items-center justify-center text-earth-400 group-hover:text-white group-hover:bg-[#25D366] group-hover:border-[#25D366] transition-colors">
                   <Phone className="w-4 h-4" />
                 </div>
                 <span className="font-medium">641 14 57 58</span>
